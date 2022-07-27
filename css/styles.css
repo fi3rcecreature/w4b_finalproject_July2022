@@ -1,19 +1,17 @@
-.clearfix {
-    clear: both;
+/* Typography */
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
 }
 
-.column2 {
-    float: left;
-    width: 48%;
-    margin: 1%;
+/* Navigation */
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
 }
 
-.column3 {
-    float: left;
-    width: 33.33%;
-}
-
-.column4 {
-    float: left;
-    width: 25%;
+.logo {
+    width: 200px;
 }
